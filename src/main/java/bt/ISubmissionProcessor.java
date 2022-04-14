@@ -1,0 +1,1 @@
+package bt;import dl.Player;import dl.Leaderboard;import java.util.List;public interface ISubmissionProcessor {    Leaderboard processSubmissions(List<Player> players);}
