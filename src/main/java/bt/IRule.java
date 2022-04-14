@@ -1,0 +1,1 @@
+package bt;import dl.Player;public interface IRule {    Player applyRules(Player player);}

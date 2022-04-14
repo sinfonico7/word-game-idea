@@ -1,0 +1,1 @@
+package Enums;public enum TypeOfRules {    WORD,AGE,NAME}
