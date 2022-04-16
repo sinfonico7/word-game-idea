@@ -1,1 +1,15 @@
-package bl;import bt.IRule;import dl.Player;import java.util.List;public class RulesWord implements IRule {    public Player applyRules(Player player) {        Player playerChecked = player;        for(String word : player.getWords()){            if(word.endsWith("a")){                playerChecked.setPoints(10);            }        }        return playerChecked;    }}
+package bl;
+
+import bt.IRule;
+import dl.Player;
+
+public class RulesWord implements IRule {
+
+    public void applyRules(Player player) {
+        for(String word : player.getWords()){
+            if(word.endsWith("a")){
+                player.addPoints(10);
+            }
+        }
+    }
+}

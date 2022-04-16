@@ -3,8 +3,36 @@
   <component name="AutoImportSettings">
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="116dc0c8-0f34-4a55-a3ca-90f62b67a008" name="Default Changelist" comment="" />
+    <list default="true" id="116dc0c8-0f34-4a55-a3ca-90f62b67a008" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ProcessorSubmissionsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/omparators/PlayerPointsComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/repositories/PlayerProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bl/repositories/RulesRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/pl/WordLeaderBoardTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/TypeOfRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/TypeOfRules.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RuleImplementationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RuleImplementationException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bl/RulesRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bl/RulesWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bl/RulesWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bt/IRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bt/IRule.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bt/ISubmissionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bt/ISubmissionProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dl/Leaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/Leaderboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dl/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pl/WordLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/WordLeaderBoard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,14 +47,19 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2020.1.4\plugins\maven\lib\maven3" />
+        <option name="usePluginRegistry" value="true" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="27nLoAQBF2v4DRtkGPhsLzqonu9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -34,16 +67,116 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="bl" />
       <recent name="dl" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn test" />
+      <command value="mvn clean" />
+      <command value="mvn install" />
+      <command value="mvn package" />
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.WordLeaderBoardTest.checkPlayerComparator">
+    <configuration name="WordLeaderBoardTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordgame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl" />
+      <option name="MAIN_CLASS_NAME" value="pl.WordLeaderBoardTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLeaderBoardTest.PlayerComparatorNeedsSortInverted" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordgame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl" />
+      <option name="MAIN_CLASS_NAME" value="pl.WordLeaderBoardTest" />
+      <option name="METHOD_NAME" value="PlayerComparatorNeedsSortInverted" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLeaderBoardTest.checkPlayerComparator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordgame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl" />
+      <option name="MAIN_CLASS_NAME" value="pl.WordLeaderBoardTest" />
+      <option name="METHOD_NAME" value="checkPlayerComparator" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLeaderBoardTest.setEffectivePoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordgame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl" />
+      <option name="MAIN_CLASS_NAME" value="pl.WordLeaderBoardTest" />
+      <option name="METHOD_NAME" value="setEffectivePoints" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordLeaderBoardTest.setEffectiveWords" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="wordgame" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="pl" />
+      <option name="MAIN_CLASS_NAME" value="pl.WordLeaderBoardTest" />
+      <option name="METHOD_NAME" value="setEffectiveWords" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.WordLeaderBoardTest.checkPlayerComparator" />
+        <item itemvalue="JUnit.WordLeaderBoardTest.setEffectivePoints" />
+        <item itemvalue="JUnit.WordLeaderBoardTest" />
+        <item itemvalue="JUnit.WordLeaderBoardTest.setEffectiveWords" />
+        <item itemvalue="JUnit.WordLeaderBoardTest.PlayerComparatorNeedsSortInverted" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -56,18 +189,85 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2360" y="90" key="#Project_Structure" timestamp="1649951122106">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2360" y="90" key="#Project_Structure/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649951122106" />
-    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1649957938753">
+    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1650075724455">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649957938753" />
+    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650075724455" />
     <state x="2610" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649957865347">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2610" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649957865347" />
+    <state width="470" height="466" key="DebuggerActiveHint" timestamp="1650075422392">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="470" height="466" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650075422392" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1650082904639">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904639" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1650082904638">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904638" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1650082904638">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904638" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1650082904639">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904639" />
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1650079129315">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079129315" />
+    <state width="1877" height="383" key="GridCell.Tab.1.center" timestamp="1650079129315">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079129315" />
+    <state width="1877" height="383" key="GridCell.Tab.1.left" timestamp="1650079129315">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079129315" />
+    <state width="1877" height="383" key="GridCell.Tab.1.right" timestamp="1650079129315">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1877" height="383" key="GridCell.Tab.1.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079129315" />
+    <state x="2381" y="161" key="SettingsEditor" timestamp="1650079103146">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2381" y="161" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079103146" />
+    <state x="2536" y="238" width="672" height="677" key="run.anything.popup" timestamp="1650082904622">
+      <screen x="1920" y="0" width="1920" height="1032" />
+    </state>
+    <state x="2536" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904622" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/bl/repositories/PlayerProcessor.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
