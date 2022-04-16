@@ -14,89 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116dc0c8-0f34-4a55-a3ca-90f62b67a008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Enums/TypeOfRules.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/ProcessorSubmissionsException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/Exceptions/RuleImplementationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bl/RulesWord.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bl/omparators/PlayerPointsComparator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bl/repositories/PlayerProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bl/repositories/RulesRepository$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bl/repositories/RulesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bt/IRule.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bt/ISubmissionProcessor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dl/Leaderboard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dl/Player.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pl/WordLeaderBoard.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/coverage-reports/jacoco.exec" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Enums/TypeOfRules.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Enums/TypeOfRules.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Enums/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Enums/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Exceptions/ProcessorSubmissionsException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Exceptions/ProcessorSubmissionsException.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Exceptions/RuleImplementationException.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Exceptions/RuleImplementationException.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Exceptions/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/Exceptions/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.omparators/PlayerPointsComparator.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.omparators/PlayerPointsComparator.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.omparators/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.omparators/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.repositories/PlayerProcessor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.repositories/PlayerProcessor.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.repositories/RulesRepository.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.repositories/RulesRepository.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.repositories/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl.repositories/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl/RulesWord.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl/RulesWord.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/bl/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/dl/Leaderboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/dl/Leaderboard.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/dl/Player.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/dl/Player.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/dl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/dl/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchfc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchnc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/branchpc.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/bundle.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/class.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/down.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/greenbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/group.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/method.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/package.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/prettify.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/redbar.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/report.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/session.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/sort.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/source.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-resources/up.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco-sessions.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/pl/WordLeaderBoard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/pl/WordLeaderBoard.java.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/pl/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/jacoco/pl/index.source.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-pl.WordLeaderBoardTest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/pl.WordLeaderBoardTest.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/pl/WordLeaderBoardTest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/wordgame-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dl/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pl/WordLeaderBoardTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pl/WordLeaderBoardTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -271,10 +191,10 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2360" y="90" key="#Project_Structure/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1649951122106" />
-    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1650075724455">
+    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser" timestamp="1650116469673">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650075724455" />
+    <state x="2685" y="232" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650116469673" />
     <state x="2610" y="263" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1649957865347">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -283,22 +203,22 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="470" height="466" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650075422392" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1650083508753">
+    <state width="1877" height="578" key="GridCell.Tab.0.bottom" timestamp="1650116543620">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1650083508753">
+    <state width="1877" height="578" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650116543620" />
+    <state width="1877" height="578" key="GridCell.Tab.0.center" timestamp="1650116543620">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1650083508753">
+    <state width="1877" height="578" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650116543620" />
+    <state width="1877" height="578" key="GridCell.Tab.0.left" timestamp="1650116543620">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1650083508753">
+    <state width="1877" height="578" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650116543620" />
+    <state width="1877" height="578" key="GridCell.Tab.0.right" timestamp="1650116543620">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
+    <state width="1877" height="578" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650116543620" />
     <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1650079129315">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -323,10 +243,10 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2381" y="161" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079103146" />
-    <state x="2536" y="238" width="672" height="677" key="run.anything.popup" timestamp="1650083177554">
+    <state x="2536" y="238" width="672" height="677" key="run.anything.popup" timestamp="1650116543605">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2536" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083177554" />
+    <state x="2536" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650116543605" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
