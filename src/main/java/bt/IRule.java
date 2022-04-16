@@ -1,1 +1,7 @@
-package bt;import dl.Player;public interface IRule {    Player applyRules(Player player);}
+package bt;
+
+import dl.Player;
+
+public interface IRule {
+    void applyRules(Player player);
+}

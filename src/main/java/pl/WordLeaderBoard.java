@@ -1,1 +1,29 @@
-package pl;import Enums.TypeOfRules;import Exceptions.RuleImplementationException;import bl.RulesRepository;import bt.IRule;import dl.Leaderboard;import dl.Player;import sun.reflect.generics.reflectiveObjects.NotImplementedException;import java.util.List;public class WordLeaderBoard extends Leaderboard {    private IRule rules;    public void buildLeaderboard(List<Player> players) {        try {            rules = RulesRepository.getRule(TypeOfRules.WORD);        }catch(NotImplementedException exception){            throw new RuleImplementationException("The rule doesn't been implemented yet." + exception.getMessage());        }        System.out.println("--********* RAINKING PLAYERS *********--");        players.stream().forEach(player -> {            Player playerChecked = rules.applyRules(player);            System.out.printf("valid words",playerChecked.getWords());            System.out.printf("points",player.getPoints());        });        System.out.println("--*********++++++++++++++++++*********--");    }}
+package pl;
+
+import Enums.TypeOfRules;
+import bl.repositories.PlayerProcessor;
+import bl.repositories.RulesRepository;
+import bt.IRule;
+import bt.ISubmissionProcessor;
+import dl.Leaderboard;
+import dl.Player;
+
+import java.util.List;
+
+public class WordLeaderBoard extends Leaderboard {
+
+    private IRule rules;
+    private ISubmissionProcessor submissionProcessor;
+
+
+    @Override
+    public void buildLeaderboard(List<Player> players) {
+
+        rules = RulesRepository.getRule(TypeOfRules.WORD);
+        submissionProcessor = new PlayerProcessor();
+        this.setRanking(submissionProcessor.processSubmissions(players, rules));
+        printLeaderBoard(TypeOfRules.WORD.label);
+
+    }
+
+}

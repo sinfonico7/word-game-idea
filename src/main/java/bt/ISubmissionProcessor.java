@@ -1,1 +1,9 @@
-package bt;import dl.Player;import dl.Leaderboard;import java.util.List;public interface ISubmissionProcessor {    Leaderboard processSubmissions(List<Player> players);}
+package bt;
+
+import dl.Player;
+
+import java.util.List;
+
+public interface ISubmissionProcessor {
+    List<Player>  processSubmissions(List<Player> players , IRule rules);
+}
