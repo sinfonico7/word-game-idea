@@ -14,24 +14,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="116dc0c8-0f34-4a55-a3ca-90f62b67a008" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Exceptions/ProcessorSubmissionsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bl/omparators/PlayerPointsComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bl/repositories/PlayerProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bl/repositories/RulesRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/pl/WordLeaderBoardTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Enums/TypeOfRules.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Enums/TypeOfRules.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Exceptions/RuleImplementationException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Exceptions/RuleImplementationException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bl/RulesRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bl/RulesWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bl/RulesWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bt/IRule.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bt/IRule.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/bt/ISubmissionProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bt/ISubmissionProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/Leaderboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/Leaderboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/dl/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dl/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pl/WordLeaderBoard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pl/WordLeaderBoard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -218,22 +201,22 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state width="470" height="466" key="DebuggerActiveHint/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650075422392" />
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1650082904639">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1650083508753">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904639" />
-    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1650082904638">
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1650083508753">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904638" />
-    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1650082904638">
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1650083508753">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904638" />
-    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1650082904639">
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1650083508753">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904639" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083508753" />
     <state width="1877" height="383" key="GridCell.Tab.1.bottom" timestamp="1650079129315">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
@@ -254,10 +237,10 @@
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
     <state x="2381" y="161" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650079103146" />
-    <state x="2536" y="238" width="672" height="677" key="run.anything.popup" timestamp="1650082904622">
+    <state x="2536" y="238" width="672" height="677" key="run.anything.popup" timestamp="1650083177554">
       <screen x="1920" y="0" width="1920" height="1032" />
     </state>
-    <state x="2536" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650082904622" />
+    <state x="2536" y="238" width="672" height="677" key="run.anything.popup/0.0.1920.1032/1920.0.1920.1032@1920.0.1920.1032" timestamp="1650083177554" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
