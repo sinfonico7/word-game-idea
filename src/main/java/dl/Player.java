@@ -5,11 +5,20 @@ import java.util.List;
 
 public class Player implements Comparable<Player>{
 
+    public String getPlayerName() {
+        return playerName;
+    }
 
+    public void setPlayerName(String playerName) {
+        this.playerName = playerName;
+    }
+
+    private String playerName;
     private List<String> words;
     private Integer points;
 
-    public Player(){
+    public Player(String playerName){
+        this.playerName = playerName;
         words = new ArrayList<>();
         points = 0;
     }
@@ -40,7 +49,7 @@ public class Player implements Comparable<Player>{
 
     @Override
     public String toString() {
-        return String.format("| Points : %s | Words : %s |", this.getPoints(), buildWords());
+        return String.format("Player name : %s | Points : %s | Words : %s |",this.getPlayerName(), this.getPoints(), buildWords());
     }
 
     private String buildWords(){

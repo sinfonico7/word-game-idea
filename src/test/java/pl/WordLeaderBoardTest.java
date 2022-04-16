@@ -29,9 +29,9 @@ public class WordLeaderBoardTest {
 
     private List<Player> getPlayersForTest() {
         List<Player> players = new ArrayList<>();
-        Player player1 = new Player();
-        Player player2 = new Player();
-        Player player3 = new Player();
+        Player player1 = new Player("Player 1");
+        Player player2 = new Player("Player 2");
+        Player player3 = new Player("Player 3");
         player1.getWords().add("cara");
         player1.getWords().add("balla");
         player2.getWords().add("call");
@@ -45,7 +45,7 @@ public class WordLeaderBoardTest {
 
     @Test
     public void playerShouldIncrease20Points(){
-        Player player1 = new Player();
+        Player player1 = new Player("Plyaer 1");
         player1.getWords().add("cara");
         player1.getWords().add("balla");
         RulesWord rulesWord = new RulesWord();
@@ -84,8 +84,8 @@ public class WordLeaderBoardTest {
     @Test
     public void PlayerComparatorNeedsSortInverted(){
         PlayerPointsComparator playerPointsComparator = new PlayerPointsComparator();
-        Player firstPlacePlayer = new Player();
-        Player secondPlacePlayer = new Player();
+        Player firstPlacePlayer = new Player("Player first");
+        Player secondPlacePlayer = new Player("Player second");
         firstPlacePlayer.setPoints(10);
         secondPlacePlayer.setPoints(0);
         int invertedValue = playerPointsComparator.compare(firstPlacePlayer,secondPlacePlayer);
@@ -97,8 +97,8 @@ public class WordLeaderBoardTest {
     @Test
     public void PlayerComparatorNeedsSortEqual(){
         PlayerPointsComparator playerPointsComparator = new PlayerPointsComparator();
-        Player firstPlacePlayer = new Player();
-        Player secondPlacePlayer = new Player();
+        Player firstPlacePlayer = new Player("Player first");
+        Player secondPlacePlayer = new Player("Player second");
         firstPlacePlayer.setPoints(10);
         secondPlacePlayer.setPoints(10);
         int invertedValue = playerPointsComparator.compare(firstPlacePlayer,secondPlacePlayer);
@@ -108,14 +108,14 @@ public class WordLeaderBoardTest {
 
     @Test
     public void setEffectivePoints(){
-        Player player = new Player();
+        Player player = new Player("Player 1");
         player.setPoints(Integer.valueOf(10));
         Assert.assertEquals(player.getPoints().intValue(),10);
     }
 
     @Test
     public void setEffectiveWords(){
-        Player player = new Player();
+        Player player = new Player("Plyaer 1");
         List<String> words = new ArrayList<>();
         words.add("Caballo");
         player.setWords(words);
@@ -124,11 +124,11 @@ public class WordLeaderBoardTest {
 
     @Test
     public void checkPlayerComparator(){
-        Player minorPlayer = new Player();
-        Player mayorPlayer = new Player();
-        minorPlayer.setPoints(10);
-        mayorPlayer.setPoints(20);
-        Assert.assertEquals(minorPlayer.compareTo(mayorPlayer),-1);
+        Player lower = new Player("Player lower");
+        Player greater = new Player("Player greater");
+        lower.setPoints(10);
+        greater.setPoints(20);
+        Assert.assertEquals(lower.compareTo(greater),-1);
     }
 
 
